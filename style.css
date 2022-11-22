@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, html, body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+header{
+    display: flex;
+    background-color: rgb(68, 195, 249);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img{
+    align-self: center;
+}
+
+.name{
+    width: 300x;
+    height: 300px;
+    border-radius: 999px;
+    object-fit:contain;
+    object-position: center;
+    margin-right: 30px;
+}
+
+.hola{
+    color: rgb(3, 82, 172);
+    font-size: 80px;
+    font-weight:500;
+    padding: 0px;
+    padding: 0px;
+    position: relative;
+    top: 15px;
+}
+
+
+.jorge{
+    font-size: 73px;
+    font-weight: bold;
+    padding: 0px;
+    padding: 0px;
+    position: relative;
+    bottom: 15px;
+}
+
+.descripcion{
+    background-color: rgb(3, 82, 172);
+    color: white;
+    font-size: 28px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experiencia{
+    font-size: 40px;
+    color: rgb(3, 82, 172);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.idiomas{
+background-color: rgb(3, 82, 172);
+color: white;
+font-size: 30px;
+height: 300px;
+padding-top: 10px;
+padding-left: 20px;
+}
+
+.paises{
+display: flex;
+justify-content: space-around;
+}
+
+.espanol{
+    width: 183;
+    height: 153;
+}
+
+.DivExperiencia{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skillsYEdu{
+    display: flex;
+}
+
+.skills{
+    background-color: rgb(68, 195, 249);
+    color: white;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.skillset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.educacion{
+    color: rgb(2, 71, 149);
+    background-color: rgb(0, 182, 0);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 10px
+}
